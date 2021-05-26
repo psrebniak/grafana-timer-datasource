@@ -1,3 +1,23 @@
+# Work in progress
+This plugin allow you to set up clock-based alerting.
+Can be useful if you'd like to enable some other alert only and only if hour>6 or weekday between Monday and Friday.
+
+## Features:
+Supported types:
+- Unix
+- UnixNano
+- Nanosecond
+- Second
+- Minute
+- Hour
+- Day
+- Weekday
+- Month
+- Year
+- YearDay
+
+You can also specify locale.
+
 # Grafana Data Source Backend Plugin Template
 
 [![Build](https://github.com/grafana/grafana-starter-datasource-backend/workflows/CI/badge.svg)](https://github.com/grafana/grafana-datasource-backend/actions?query=workflow%3A%22CI%22)
