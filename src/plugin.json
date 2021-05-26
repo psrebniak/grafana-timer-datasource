@@ -10,7 +10,7 @@
     "description": "Timer datasource. Useful if you need to disable alerts for night hours or weekend. ",
     "author": {
       "name": "Piotr Srebniak",
-      "url": "github.com/psrebniak/grafana-timer-datasource"
+      "url": "https://github.com/psrebniak/grafana-timer-datasource"
     },
     "keywords": [
       "timer",

@@ -1,7 +1,7 @@
 {
   "name": "psrebniak-timer-datasource",
   "version": "1.0.0",
-  "description": "Timer datasource. Useful if you need to disable alerts for night hours or weekend. ",
+  "description": "Date datasource for grafana. Useful if you want to disable some alerts at night etc",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",

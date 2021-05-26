@@ -31,8 +31,8 @@ export class QueryEditor extends PureComponent<Props> {
 
     return (
       <div className="gf-form">
-        <FormField width={4} value={queryType} onChange={this.onLocaleChange} label="QueryType" />
-        <FormField value={locale || ''} onChange={this.onQueryTypeChange} label="Locale" />
+        <FormField value={queryType} onChange={this.onQueryTypeChange} label="QueryType" />
+        <FormField value={locale || ''} onChange={this.onLocaleChange} label="Locale" />
       </div>
     );
   }
